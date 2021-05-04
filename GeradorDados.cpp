@@ -122,7 +122,7 @@ main()
         
          printf("\nDeseja gerar quantos numeros de CNPJ: ");
          scanf("%d",&quant);
-         printf("*==================================================================*\n");
+         printf("*===================================================================*\n");
 
          //Geração dos numeros do CNPJ
         
