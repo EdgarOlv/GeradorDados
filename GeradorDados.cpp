@@ -41,7 +41,7 @@ main()
          
          printf("\nDeseja gerar quantos numeros de CPF: ");
          scanf("%d",&quant);
-         printf("*==================================================================*\n");
+         printf("*===================================================================*\n");
          
          //numeros do CPF
          
@@ -105,7 +105,7 @@ main()
                if(i-1==2) printf(".");
                if(i-1==5) printf(".");
             }
-            printf("-%d%d\n",dig1,dig2); //dois últimos digitos
+            printf("-%d%d\n",dig1,dig2); //dois Ãºltimos digitos
             printf("*==================================================================*\n");
          }
          printf("Pressione \"enter\" para continuar...");
@@ -124,7 +124,7 @@ main()
          scanf("%d",&quant);
          printf("*==================================================================*\n");
 
-         //Geração dos numeros do CNPJ
+         //GeraÃ§Ã£o dos numeros do CNPJ
         
          for(cnpj=1;cnpj<=quant;cnpj++)
          {
@@ -183,11 +183,11 @@ main()
             for(i=1;i<=12;i++)
             {
                printf("%d",numero[i]);//numeros do CNPJ
-               if(i==2) printf(".");//imprime um ponto depois da 2ª casa
-               if(i==5) printf(".");//imprime um ponto depois da 5ª casa
-               if(i==8) printf("/");//imprime uma barra depois da 8ª casa
+               if(i==2) printf(".");//imprime um ponto depois da 2Âª casa
+               if(i==5) printf(".");//imprime um ponto depois da 5Âª casa
+               if(i==8) printf("/");//imprime uma barra depois da 8Âª casa
             }
-            printf("-%d%d\n",dig1,dig2); // dois últimos digitos
+            printf("-%d%d\n",dig1,dig2); // dois Ãºltimos digitos
             printf("*==================================================================*\n");
          }
          printf("Pressione \"enter\" para continuar...");
@@ -205,7 +205,7 @@ main()
          scanf("%d",&quant);
          printf("============================================\n");
 
-         //Geração dos numeros do TE
+         //GeraÃ§Ã£o dos numeros do TE
 
          for(te=1;te<=quant;te++)
          {
@@ -246,10 +246,10 @@ main()
             for(i=1;i<=10;i++)
             {
                printf("%d",numero[i]);
-               if(i==4) printf(" "); //imprime um espaço apos a 4ª casa
-               if(i==8) printf(" "); //imprime um espaço apos a 8ª casa
+               if(i==4) printf(" "); //imprime um espaÃ§o apos a 4Âª casa
+               if(i==8) printf(" "); //imprime um espaÃ§o apos a 8Âª casa
             }
-            printf("%d%d\n",dig1,dig2); //dois últimos digitos
+            printf("%d%d\n",dig1,dig2); //dois Ãºltimos digitos
             printf("============================================\n");
          }
          printf("Pressione \"enter\" para continuar...");
